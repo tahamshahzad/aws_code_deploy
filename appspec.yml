@@ -10,7 +10,7 @@ permissions:
      group: apache
      mode: 755
      type:
-       - file
+        - file
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
